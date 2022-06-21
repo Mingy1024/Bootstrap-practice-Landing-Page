@@ -11956,4 +11956,11 @@ fieldset:disabled .btn {
     display: none !important;
   }
 }
+
+.header {
+  height: 627px;
+  background-image: url(../../images/home_bg.jpg);
+  background-size: cover;
+  background-position: bottom center;
+}
 /*# sourceMappingURL=all.css.map */
