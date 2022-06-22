@@ -9019,6 +9019,10 @@ fieldset:disabled .btn {
   visibility: hidden !important;
 }
 
+.fs-c-48 {
+  font-size: calc(1.425rem + 2.1vw) !important;
+}
+
 @media (min-width: 576px) {
   .float-sm-start {
     float: left !important;
@@ -11916,6 +11920,9 @@ fieldset:disabled .btn {
   }
   .fs-4 {
     font-size: 1.5rem !important;
+  }
+  .fs-c-48 {
+    font-size: 3rem !important;
   }
 }
 

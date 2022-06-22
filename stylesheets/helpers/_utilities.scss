@@ -450,6 +450,14 @@ $utilities: map-merge(
       class: fs,
       values: $font-sizes
     ),
+    "font-size-custom": (
+      rfs: true,
+      property: font-size,
+      class: fs-c,
+      values: (
+        48: 48px
+      )
+    ),
     "font-style": (
       property: font-style,
       class: fst,
