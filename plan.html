@@ -73,10 +73,10 @@
 
     <section class="container py-5">
       <div class="row justify-content-center">
-        <div class="col-lg-8 ">
+        <div class="col-lg-8">
           <form action="" class="py-lg-5 px-lg-32 shadow-lg">
             <h3 class="h4 deco-line mb-3">選擇方案</h3>
-            <div class="row row-cols-1 row-cols-lg-3 g-2">
+            <div class="row row-cols-1 row-cols-lg-3 g-2 mb-32">
               <div class="col">
                 <button
                   type="button"
@@ -105,6 +105,104 @@
                 </button>
               </div>
             </div>
+            <h3 class="h4 deco-line mb-3">填寫資料</h3>
+            <div class="row text-secondary gx-2">
+              <div class="col-lg-6 mb-3">
+                <label for="firstName" class="mb-2">名字</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="firstName"
+                  aria-label="名字"
+                />
+              </div>
+              <div class="col-lg-6 mb-3">
+                <label for="lastName" class="mb-2">姓氏</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="lastName"
+                  aria-label="姓氏"
+                />
+              </div>
+              <div class="col-12 mb-3">
+                <label for="phoneNumber" class="mb-2">手機號碼</label>
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="phoneNumber"
+                  aria-label="手機號碼"
+                />
+              </div>
+              <div class="col-12 mb-3">
+                <label for="email" class="mb-2">電子郵件</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  aria-label="電子郵件"
+                />
+              </div>
+              <div class="col-12 mb-3">
+                <label for="address" class="mb-2">住址</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="address"
+                  aria-label="住址"
+                />
+              </div>
+              <div class="col-12 mb-3">
+                <label for="time" class="mb-2">方便聯繫時間</label>
+                <select id="time" class="form-select">
+                  <option value="">8:00 ~ 9:00</option>
+                  <option value="">9:00 ~ 10:00</option>
+                  <option value="">10:00 ~ 11:00</option>
+                  <option value="">11:00 ~ 12:00</option>
+                  <option value="">12:00 ~ 13:00</option>
+                  <option value="" selected>13:00 ~ 14:00</option>
+                  <option value="">14:00 ~ 15:00</option>
+                  <option value="">15:00 ~ 16:00</option>
+                  <option value="">16:00 ~ 17:00</option>
+                </select>
+              </div>
+              <div class="col-12 mb-3">
+                <label for="mondayClean" class="mb-2">加購服務</label>
+                <div class="serving">
+                  <div class="form-check pe-3 d-inline-block">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="mondayClean"
+                    />
+                    <label for="mondayClean" class="form-check-label"
+                      >每週一清掃家裡+100</label
+                    >
+                  </div>
+                  <div class="form-check pe-3 d-inline-block">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="massage"
+                    />
+                    <label for="massage" class="form-check-label"
+                      >按摩+50</label
+                    >
+                  </div>
+                  <div class="form-check d-lg-inline-block">
+                    <input class="form-check-input" type="checkbox" id="listen" />
+                    <label for="listen" class="form-check-label"
+                      >聽你說話+150</label
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 mb-32">
+                <label for="remark" class="mb-2">備註說明</label>
+                <textarea class="form-control" id="remark" style="height: 86px;"></textarea>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-lg btn-info w-100">選擇方案</button>
           </form>
         </div>
       </div>
